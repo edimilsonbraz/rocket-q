@@ -1,0 +1,27 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionados ao dono da página. Desenvolvido na semana NLW Together da RocketSeat",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edimilsonbraz/rocket-q.git"
+  },
+  "keywords": [],
+  "author": "Edimilson Braz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edimilsonbraz/rocket-q/issues"
+  },
+  "homepage": "https://github.com/edimilsonbraz/rocket-q#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
