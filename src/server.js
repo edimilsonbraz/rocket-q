@@ -14,7 +14,9 @@ server.use(express.static("public"))
 // Mudando a localização da pasta views para EJS Encherga-la
 server.set('views', path.join(__dirname, 'views'));
 
+server.use(express.urlencoded({extended: true}));
+
 //route
 server.use(route);
 
-server.listen(3000, () => console.log("RODANDO"))
+server.listen(5000, () => console.log("RODANDO"))
