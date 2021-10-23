@@ -30,6 +30,11 @@ Toda a base dessa aplicação foi desenvolvida durante a semana NLW Together da 
 ---
 <br>
 
+## :point_right: Como utilizar ?
+1. Rode o comando npm install para instalar as dependências
+2. Depois, rode o camando npm run init-db para instalar o banco de dados
+3. E pra iniciar a aplicação rode o comando npm start
+
 ## :computer: Licença
 
 
